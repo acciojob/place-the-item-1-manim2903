@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.flex-container{
+	display:flex;
+/* 	border:2px solid red; */
+	flex-direction:row;
+	flex-wrap:wrap;
+/* 	gap:2px; */
+	justify-items:space-between;
+	justify-content:space-between;
+	font-size:50px;
+	
+}
+span{
+	display:inline-block;
+	height:100px;
+	width:100px;
+	
+}
+.item1{
+	background-color:red;
+	order:2;
+}
+.item2{
+	background-color:blue;
+	order:3;
+}
+.item3{
+	background-color:green;
+}
